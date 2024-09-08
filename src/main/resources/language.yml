@@ -1,0 +1,5 @@
+messages:
+  prefix: "&4[&cDisableCrafterRecipes&4]"
+  Reloaded: "{prefix} &aConfiguration reloaded."
+  No Permission: "{prefix} &cYou don't have the permission."
+  Incorrect usage: "{prefix} &6Usage: /disablecrafterrecipes reload"

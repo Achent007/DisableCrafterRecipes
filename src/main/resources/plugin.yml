@@ -1,0 +1,20 @@
+name: DisableCrafterRecipes
+version: '${project.version}'
+main: be.achent.DisableCrafterRecipes.DisableCrafterRecipes
+author: Achent
+api-version: '1.21'
+commands:
+  disablecrafterrecipes:
+    description: Main Command
+permissions:
+  disablecrafterrecipes.*:
+    description: Give all permissions
+    children:
+      disablecrafterrecipes.use: true
+      disablecrafterrecipes.reload: true
+  disablecrafterrecipes.use:
+    description: Permission to use the verification system
+    default: op
+  disablecrafterrecipes.reload:
+    description: Permission for the reload command
+    default: op
